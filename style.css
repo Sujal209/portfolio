@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  width: 100%;
+  height: 100vh;
+  background-image: url("black-paper-background.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+span {
+  color: aqua;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.logo {
+  font-size: larger;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+  /* color: white; */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: aqua;
+  transition: 0.5s;
+}
+
+.body {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+}
+
+h3 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  /* color: rgb(70, 196, 108); */
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.letter form {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.email {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 130px 15px 15px;
+  border: 3px solid aqua;
+  border-radius: 20px;
+}
+
+.submit {
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none; /*1px aqua; */
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 12px;
+  background-color: aqua;
+  color: black;
+  right: 10px;
+  margin-top: 7px;
+}
+
+.submit:hover {
+  background: rgb(49, 227, 117);
+  border: 1.5px solid aqua;
+  cursor: pointer;
+}
+
+/* input {
+  border-radius: 20px;
+  cursor: pointer;
+} */
+
+/* about */
+
+.about-section {
+  height: 100%;
+  padding: 100px 0;
+  background-color: rgb(74, 67, 70);
+}
+
+.about-section img {
+  height: auto;
+  width: 400px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+
+.about-text {
+  width: 500px;
+  margin-left: 10px;
+}
+
+.about {
+  width: 1100px;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* font size
+h2 80
+h3 70   
+h4 60
+h5 50*/
+
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-text h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.about-text h4 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.about-text h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  color: rgb(49, 227, 117);
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+button {
+  color: black;
+  background-color: aqua;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+button:hover {
+  color: aqua;
+  background: transparent;
+  border: 1.5px solid rgb(49, 227, 117);
+  cursor: pointer;
+}
+
+.contact-me {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(130, 122, 125);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-me pre {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: aqua;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.button:hover {
+  color: aqua;
+  background: transparent;
+  border: 1.5px solid rgb(49, 227, 117);
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  background-color: rgb(74, 67, 70);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.social-media {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media a {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  transform: scale(1.5);
+}
+
+.copyrights {
+  position: relative;
+}
+
+.top-button {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(49, 227, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.top-button:hover {
+  background: aqua;
+  border: 1.5px solid aqua;
+  cursor: pointer;
+}

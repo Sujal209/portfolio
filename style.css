@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  width: 100%;
+  width: auto;
   height: 100vh;
   background-image: url("black-paper-background.webp");
   background-size: cover;
@@ -58,6 +58,7 @@ nav ul li a:hover {
 }
 
 .body {
+  width: auto;
   position: absolute;
   top: 35%;
   left: 65%;
